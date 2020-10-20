@@ -143,6 +143,9 @@ footer{
 .gallery{
   min-height: 600px;
   /*Your code here again.*/
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .gallery > img{
@@ -164,6 +167,8 @@ header{
 
 .nav_links{
   /*Your code here again.*/
+  display: flex;
+  flex-direction: column;
 }
 
 .nav_item a{
