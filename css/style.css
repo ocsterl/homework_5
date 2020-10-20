@@ -188,6 +188,9 @@ header{
   /* Cards! */
   .card {
     /*Your  code here again.*/
+    display: flex;
+    flex-basis: 225px;
+
   }
 
   .card_big{
@@ -198,10 +201,15 @@ header{
   /* Navbar */
   header{
     /*Your code here again.*/  
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .nav_links{
-    /*Your code here again.*/  
+    /*Your code here again.*/
+    display:flex;
+    flex-direction: row;
   }
 
   .nav_item a{
@@ -219,3 +227,9 @@ header{
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
+@media screen and (prefers-reduced-motion: reduce){
+  #logo{
+    animation: none;
+  }
+}
+
